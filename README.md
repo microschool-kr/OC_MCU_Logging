@@ -46,6 +46,9 @@
 - Session -> Serial -> Serial line : COM 포트 번호
 - Saved Sessions : 저장하기
 - ![img2](/img/putty2.png)
+3. data.csv파일을 엑셀파일에서 열기 
+4. 데이터를 차트로 만들기
+![img3](/img/chart.png)
 
 
 
