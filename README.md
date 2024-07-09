@@ -16,6 +16,7 @@
 
 ### 선 작업 
 #### 회로도
+![schematic](/img/schematic.png)
 #### 핀 정보
 | [Arduino UNO GPIO](https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf) | AHT20 |
 |-----------|------|
