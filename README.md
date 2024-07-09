@@ -26,6 +26,7 @@
 |   GND     | GND  |
 
 ## 순서도
+![flowchar](/img/logging-2024-07-09-061201.png)
 
 ## 라이브러리  
 - [Adafruit-AHTX0](https://github.com/adafruit/Adafruit_AHTX0)  

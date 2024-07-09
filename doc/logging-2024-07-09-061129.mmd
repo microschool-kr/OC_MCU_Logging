@@ -1,0 +1,27 @@
+flowchart TD
+    A[["시작"]] --> B["아두이노 초기화"]
+    B --> C{"AHT20 센서 연결 확인"}
+    C -->|성공| D["시간, 온도, 습도 측정"]
+    C -->|실패| E["에러 메시지 출력"]
+    E --> F["10ms 대기"]
+    F --> C
+    D --> G["CSV 형식으로 데이터 출력"]
+    G --> H["1초 대기"]
+    H --> D
+    G -.-> I["PuTTY로 시리얼 데이터 수집"]
+    I --> J["수집된 데이터를 스프레드시트로 복사"]
+    J --> K["스프레드시트에서 그래프 생성"]
+    K --> L[["종료"]]
+
+    style A fill:#E1BEE7,stroke:#FFFFFF,stroke-width:2px
+    style B fill:#BBDEFB,stroke:#FFFFFF,stroke-width:2px
+    style C fill:#FFE0B2,stroke:#FFFFFF,stroke-width:2px
+    style D fill:#C8E6C9,stroke:#FFFFFF,stroke-width:2px
+    style E fill:#FFCDD2,stroke:#FFFFFF,stroke-width:2px
+    style F fill:#F8BBD0,stroke:#FFFFFF,stroke-width:2px
+    style G fill:#B2EBF2,stroke:#FFFFFF,stroke-width:2px
+    style H fill:#F8BBD0,stroke:#FFFFFF,stroke-width:2px
+    style I fill:#FFF9C4,stroke:#FFFFFF,stroke-width:2px
+    style J fill:#FFF9C4,stroke:#FFFFFF,stroke-width:2px
+    style K fill:#DCEDC8,stroke:#FFFFFF,stroke-width:2px
+    style L fill:#E1BEE7,stroke:#FFFFFF,stroke-width:2px
