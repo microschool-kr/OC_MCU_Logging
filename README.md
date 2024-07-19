@@ -31,24 +31,30 @@
 ## 라이브러리  
 - [Adafruit-AHTX0](https://github.com/adafruit/Adafruit_AHTX0)  
 :  Adafruit에서 제작한 AHT20 온도 및 습도 센서를 위한 라이브러리 
-### Adafruit AHT20 lib의 주요 기능  
-1. display.display()
-2. display.cleardisplay()
+### Adafruit AHT20 lib 사용시 알아두어야할 변수  
+1. temp.temperature 변수 : 온도 
+2. humidity.reltive_humidity : 습도 
 
 # 코드  
 
-## 응용하기  
-### logging하는 장치 만들기 
-1. [Putty 다운로드하기](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
-2. Putty에서 시리얼 통신을 연결하기 
+## [logging하는 장치 만들기](/src/logging.ino) 
+
+# 실행방법
+
+1. 아두이노IDE에서 logging.ino 파일을 컴파일 하기
+2. 아두이노 우노에 업로드하기
+3. 아두이노IDE의 시리얼 모니터를 통해서 시간,온도,습도가 출력되는지 확인하기 
+4. 아두이노IDE를 종료하기
+5. [Putty 다운로드하기](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
+6. Putty에서 시리얼 통신을 연결하기 
 - ![img](/img/putty.png)
 - Sessing logging -> All session output
 - Log file name : 원하는 경로에 data.csv 파일로 지정한다.
 - Session -> Serial -> Serial line : COM 포트 번호
 - Saved Sessions : 저장하기
 - ![img2](/img/putty2.png)
-3. data.csv파일을 엑셀파일에서 열기 
-4. 데이터를 차트로 만들기
+7. data.csv파일을 엑셀(또는 구글 스프레드 시트)에서 가져오기 
+8. 데이터를 차트로 만들기
 ![img3](/img/chart.png)
 
 
