@@ -37,7 +37,7 @@
 
 # 코드  
 
-## [logging하는 장치 만들기](/src/logging.ino) 
+## [logging.ino](/src/logging/logging.ino) 
 
 # 실행방법
 
