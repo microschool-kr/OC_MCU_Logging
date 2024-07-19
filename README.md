@@ -37,7 +37,7 @@
 
 # 코드  
 
-## [logging.ino](/src/logging/logging.ino) 
+## [code.ino](/src/code/code.ino) 
 
 # 실행방법
 
