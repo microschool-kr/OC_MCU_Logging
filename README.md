@@ -4,8 +4,6 @@
 
 ![img](./img/5_Logging_cover.jpg)
 
-[![YouTube Channel Views](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/MR2QqXCNLw0?si=WmBGlCCP_SvbRK-K)
-
 ## 📝 프로젝트 소개
 이 프로젝트는 아두이노와 AHT20 센서를 활용하여 주변 환경의 온도와 습도를 측정하고 기록하는 장치를 만드는 과정을 설명합니다. 수집된 데이터는 엑셀이나 구글 스프레드시트를 통해 그래프로 시각화할 수 있습니다.
 
